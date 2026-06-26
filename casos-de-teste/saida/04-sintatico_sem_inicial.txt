@@ -1,0 +1,2 @@
+Erro lexico/sintatico:
+  Linha 4: mismatched input 'finais' expecting 'inicial'

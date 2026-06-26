@@ -1,0 +1,21 @@
+Automato: TerminaAB
+Alfabeto: [a, b]
+Estados: [s, a1, ab]
+Inicial: s
+Finais: [ab]
+Transicoes: 6
+--------------------------------------------------
+Cadeia "ab": obtido=aceita, esperado=aceita -> OK
+   caminho: (s) --a--> (a1) --b--> (ab)  [final: ACEITA]
+Cadeia "aab": obtido=aceita, esperado=aceita -> OK
+   caminho: (s) --a--> (a1) --a--> (a1) --b--> (ab)  [final: ACEITA]
+Cadeia "abab": obtido=aceita, esperado=aceita -> OK
+   caminho: (s) --a--> (a1) --b--> (ab) --a--> (a1) --b--> (ab)  [final: ACEITA]
+Cadeia "ba": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (s) --b--> (s) --a--> (a1)  [não-final: REJEITA]
+Cadeia "a": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (s) --a--> (a1)  [não-final: REJEITA]
+Cadeia "abb": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (s) --a--> (a1) --b--> (ab) --b--> (s)  [não-final: REJEITA]
+--------------------------------------------------
+Resultado: 6/6 testes corretos

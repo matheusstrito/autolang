@@ -1,0 +1,14 @@
+Aviso: estado 'qLixo' é inalcançável a partir do estado inicial
+Automato: X
+Alfabeto: [a]
+Estados: [q0, q1, qLixo]
+Inicial: q0
+Finais: [q1]
+Transicoes: 2
+--------------------------------------------------
+Cadeia "a": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0) --a--> (q1)  [final: ACEITA]
+Cadeia "aa": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (q0) --a--> (q1) --a--> (q0)  [não-final: REJEITA]
+--------------------------------------------------
+Resultado: 2/2 testes corretos

@@ -1,0 +1,14 @@
+automato X {
+    alfabeto { a }
+    estados  { q0, q1, qLixo }
+    inicial  q0
+    finais   { q1 }
+    transicoes {
+        q0 -- a --> q1
+        q1 -- a --> q0
+    }
+    testar {
+        "a"   aceita
+        "aa"  rejeita
+    }
+}

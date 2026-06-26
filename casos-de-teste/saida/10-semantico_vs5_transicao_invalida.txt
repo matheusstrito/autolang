@@ -1,0 +1,3 @@
+Erros semanticos encontrados:
+  Linha 7: símbolo 'b' não pertence ao alfabeto
+  Linha 8: estado de destino 'q7' não declarado

@@ -1,0 +1,6 @@
+target/generated-sources/
+target/classes/
+target/maven-*/
+target/fatjar/
+*.class
+.idea/

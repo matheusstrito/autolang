@@ -1,0 +1,21 @@
+Automato: ParidadeA
+Alfabeto: [a, b]
+Estados: [q0, q1]
+Inicial: q0
+Finais: [q0]
+Transicoes: 4
+--------------------------------------------------
+Cadeia "aa": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0) --a--> (q1) --a--> (q0)  [final: ACEITA]
+Cadeia "aba": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0) --a--> (q1) --b--> (q1) --a--> (q0)  [final: ACEITA]
+Cadeia "ab": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (q0) --a--> (q1) --b--> (q1)  [não-final: REJEITA]
+Cadeia "abba": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0) --a--> (q1) --b--> (q1) --b--> (q1) --a--> (q0)  [final: ACEITA]
+Cadeia "b": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0) --b--> (q0)  [final: ACEITA]
+Cadeia "": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0)  [final: ACEITA]
+--------------------------------------------------
+Resultado: 6/6 testes corretos

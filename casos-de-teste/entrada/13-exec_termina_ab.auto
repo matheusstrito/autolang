@@ -1,0 +1,23 @@
+// Aceita cadeias sobre {a,b} que TERMINAM em "ab"
+automato TerminaAB {
+    alfabeto { a, b }
+    estados  { s, a1, ab }
+    inicial  s
+    finais   { ab }
+    transicoes {
+        s  -- a --> a1
+        s  -- b --> s
+        a1 -- a --> a1
+        a1 -- b --> ab
+        ab -- a --> a1
+        ab -- b --> s
+    }
+    testar {
+        "ab"    aceita
+        "aab"   aceita
+        "abab"  aceita
+        "ba"    rejeita
+        "a"     rejeita
+        "abb"   rejeita
+    }
+}

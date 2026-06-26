@@ -1,0 +1,10 @@
+automato X {
+    alfabeto { a }
+    estados  { q0, q1 }
+    inicial  q0
+    finais   { q1 }
+    transicoes {
+        q0 -- b --> q1
+        q0 -- a --> q7
+    }
+}

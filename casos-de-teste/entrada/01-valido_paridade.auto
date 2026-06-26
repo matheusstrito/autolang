@@ -1,0 +1,21 @@
+// AFD que aceita cadeias com numero PAR de 'a' (b's livres)
+automato ParidadeA {
+    alfabeto { a, b }
+    estados  { q0, q1 }
+    inicial  q0
+    finais   { q0 }
+    transicoes {
+        q0 -- a --> q1
+        q1 -- a --> q0
+        q0 -- b --> q0
+        q1 -- b --> q1
+    }
+    testar {
+        "aa"    aceita
+        "aba"   aceita
+        "ab"    rejeita
+        "abba"  aceita
+        "b"     aceita
+        ""      aceita
+    }
+}

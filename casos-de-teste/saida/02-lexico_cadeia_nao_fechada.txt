@@ -1,0 +1,2 @@
+Erro lexico/sintatico:
+  Linha 7: extraneous input '"aa  aceita }\n' expecting {'}', CADEIA}

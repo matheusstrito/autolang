@@ -1,0 +1,2 @@
+Erro lexico/sintatico:
+  Linha 8: mismatched input '<EOF>' expecting {'testar', '}'}

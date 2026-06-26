@@ -1,0 +1,15 @@
+Automato: SoUmA
+Alfabeto: [a, b]
+Estados: [q0, q1]
+Inicial: q0
+Finais: [q1]
+Transicoes: 1
+--------------------------------------------------
+Cadeia "a": obtido=aceita, esperado=aceita -> OK
+   caminho: (q0) --a--> (q1)  [final: ACEITA]
+Cadeia "ab": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (q0) --a--> (q1) --b--> [sem transição]
+Cadeia "b": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (q0) --b--> [sem transição]
+--------------------------------------------------
+Resultado: 3/3 testes corretos

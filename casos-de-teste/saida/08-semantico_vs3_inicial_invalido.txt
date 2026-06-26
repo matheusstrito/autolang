@@ -1,0 +1,2 @@
+Erros semanticos encontrados:
+  Linha 4: estado inicial 'qX' não foi declarado no bloco 'estados'

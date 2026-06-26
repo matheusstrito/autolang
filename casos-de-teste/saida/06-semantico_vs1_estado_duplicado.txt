@@ -1,0 +1,2 @@
+Erros semanticos encontrados:
+  Linha 3: estado 'q0' declarado mais de uma vez

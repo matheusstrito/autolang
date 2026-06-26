@@ -1,0 +1,21 @@
+Automato: DivPor3
+Alfabeto: [0, 1]
+Estados: [r0, r1, r2]
+Inicial: r0
+Finais: [r0]
+Transicoes: 6
+--------------------------------------------------
+Cadeia "0": obtido=aceita, esperado=aceita -> OK
+   caminho: (r0) --0--> (r0)  [final: ACEITA]
+Cadeia "11": obtido=aceita, esperado=aceita -> OK
+   caminho: (r0) --1--> (r1) --1--> (r0)  [final: ACEITA]
+Cadeia "110": obtido=aceita, esperado=aceita -> OK
+   caminho: (r0) --1--> (r1) --1--> (r0) --0--> (r0)  [final: ACEITA]
+Cadeia "1001": obtido=aceita, esperado=aceita -> OK
+   caminho: (r0) --1--> (r1) --0--> (r2) --0--> (r1) --1--> (r0)  [final: ACEITA]
+Cadeia "10": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (r0) --1--> (r1) --0--> (r2)  [não-final: REJEITA]
+Cadeia "111": obtido=rejeita, esperado=rejeita -> OK
+   caminho: (r0) --1--> (r1) --1--> (r0) --1--> (r1)  [não-final: REJEITA]
+--------------------------------------------------
+Resultado: 6/6 testes corretos

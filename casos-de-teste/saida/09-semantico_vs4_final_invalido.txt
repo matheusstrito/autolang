@@ -1,0 +1,2 @@
+Erros semanticos encontrados:
+  Linha 5: estado final 'q9' não foi declarado no bloco 'estados'

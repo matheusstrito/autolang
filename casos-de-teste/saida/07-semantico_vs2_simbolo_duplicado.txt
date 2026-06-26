@@ -1,0 +1,2 @@
+Erros semanticos encontrados:
+  Linha 2: símbolo 'a' declarado mais de uma vez no alfabeto

@@ -1,0 +1,2 @@
+Erros semanticos encontrados:
+  Linha 8: transição não-determinística: já existe uma transição de 'q0' com o símbolo 'a'
