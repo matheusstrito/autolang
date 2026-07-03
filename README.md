@@ -8,6 +8,12 @@ DSL declarativa para **definir Autômatos Finitos Determinísticos (AFD)** e **s
 - Leonardo Poloni Berti Moríkio
 - João Lucas Gomes Pelegrino
 
+## Vídeo demonstrativo
+
+Uma demonstração curta da linguagem e do compilador em funcionamento está disponível em:
+
+**https://youtu.be/dns92Mo7wn8**
+
 ---
 
 ## Sobre a linguagem
